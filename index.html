@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>template 6</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="nav-circles">
+      <a href="#about" data-name="About"></a>
+      <a href="#skills" data-name="Skills"></a>
+      <a href="#gallery" data-name="Gallery"></a>
+      <a href="#test" data-name="Time Line"></a>
+      <a href="#features" data-name="Features"></a>
+      <a href="#comment" data-name="Testimonials"></a>
+    </div>
+    <div class="settings position-fixed" id="settings">
+      <i class="fa fa-gear gear"></i>
+      <div class="option-box">
+        <h4>Colors</h4>
+        <ul class="p-0">
+          <li data-color="#ff9800" class="active"></li>
+          <li data-color="#00bcd4"></li>
+          <li data-color="#e91e63"></li>
+          <li data-color="#607d8b"></li>
+          <li data-color="#009688"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>Random Background</h4>
+        <div class="randomBackground">
+          <button value="yes" class="yes active">yes</button>
+          <button value="no" class="no">no</button>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>Show Bullets</h4>
+        <div class="showBullets">
+          <button value="flex" class="yes active">yes</button>
+          <button value="none" class="no">no</button>
+        </div>
+      </div>
+      <div class="reset">
+        <button>Reset</button>
+      </div>
+    </div>
+    <div class="landing position-relative text-white" id="landing">
+      <div class="overlay position-absolute"></div>
+      <div class="container">
+        <header
+          class="d-flex position-relative align-items-center justify-content-between pt-2 p-4"
+        >
+          <div class="logo fs-3">Logo</div>
+          <i class="fa-solid fa-bars bars"></i>
+          <ul class="smallList ">
+            <a href="#about" data-name="About">About</a>
+            <a href="#skills" data-name="Skills">Skills</a>
+            <a href="#gallery" data-name="Gallery">Gallery</a>
+            <a href="#test" data-name="Time Line">Time Line</a>
+            <a href="#features" data-name="Features">Features</a>
+            <a href="#comment" data-name="Testimonials">Testimonials</a>
+          </ul>
+          <ul class="list-unstyled fs-6">
+            <li class="d-inline-block me-2">
+              <a href="#" class="active">About</a>
+            </li>
+            <li class="d-inline-block me-2"><a href="#">Services</a></li>
+            <li class="d-inline-block me-2"><a href="#">Product</a></li>
+            <li class="d-inline-block me-2"><a href="#">Contact</a></li>
+          </ul>
+        </header>
+        <div class="intro text-center position-absolute p-4">
+          <h1>We Are <span>Creative</span> Agency</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum
+            voluptates amet?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="container d-flex">
+        <div class="text flex-grow-1">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+            ipsum eum perferendis eos mollitia aliquam debitis commodi ipsam,
+            cumque nisi placeat minus libero ratione iste et quisquam, iusto
+            recusandae voluptate!
+          </p>
+        </div>
+        <div class="img flex-grow-1">
+          <img src="imgs/illustration.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="skills" id="skills">
+      <div class="container text-center">
+        <h2>Our Skills</h2>
+        <div class="skill-box d-flex align-items-center">
+          <div class="skill-name fw-bold fs-6">HTML</div>
+          <div class="skill-prog position-relative flex-grow-1">
+            <span data-width="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box d-flex align-items-center">
+          <div class="skill-name fw-bold fs-6">Css</div>
+          <div class="skill-prog position-relative flex-grow-1">
+            <span data-width="100%"></span>
+          </div>
+        </div>
+        <div class="skill-box d-flex align-items-center">
+          <div class="skill-name fw-bold fs-6">JavaScript</div>
+          <div class="skill-prog position-relative flex-grow-1">
+            <span data-width="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box d-flex align-items-center">
+          <div class="skill-name fw-bold fs-6">BootStrap</div>
+          <div class="skill-prog position-relative flex-grow-1">
+            <span data-width="57%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery text-center" id="gallery">
+      <div class="show-lay"></div>
+      <div class="show">
+        <h2>image one</h2>
+        <img src="" alt="" />
+        <div class="close">x</div>
+      </div>
+      <h2>Our Gallery</h2>
+      <div class="container d-flex flex-wrap justify-content-center">
+        <div class="img">
+          <img src="imgs/01.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="imgs/02.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="imgs/03.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="imgs/04.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="imgs/05.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="imgs/06.png" alt="" />
+        </div>
+        <div class="img">
+          <img src="imgs/07.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="imgs/08.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="imgs/09.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="imgs/10.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="test position-relative" id="test">
+      <div class="line"></div>
+      <span>2018</span>
+      <span>2016</span>
+      <div class="container">
+        <div class="box">
+          <h4>Testing Heading</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
+            nesciunt distinctio magnam quis animi delectus architecto quibusdam
+            incidunt enim ipsa? Nesciunt saepe reprehenderit facilis id eveniet
+            ab iure ipsum eligendi?
+          </p>
+        </div>
+        <div class="box">
+          <h4>Testing Heading</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
+            nesciunt distinctio magnam quis animi delectus architecto quibusdam
+            incidunt enim ipsa? Nesciunt saepe reprehenderit facilis id eveniet
+            ab iure ipsum eligendi?
+          </p>
+        </div>
+        <div class="box special">
+          <h4>Testing Heading</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
+            nesciunt distinctio magnam quis animi delectus architecto quibusdam
+            incidunt enim ipsa? Nesciunt saepe reprehenderit facilis id eveniet
+            ab iure ipsum eligendi?
+          </p>
+        </div>
+        <div class="box">
+          <h4>Testing Heading</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
+            nesciunt distinctio magnam quis animi delectus architecto quibusdam
+            incidunt enim ipsa? Nesciunt saepe reprehenderit facilis id eveniet
+            ab iure ipsum eligendi?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="features" id="features">
+      <div class="container d-flex flex-wrap">
+        <div class="box text-center">
+          <img src="imgs/1.svg" alt="" />
+          <h3 class="mt-4 mb-4 fw-bold fs-5 text-black">Development</h3>
+          <div class="break mb-4"></div>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="box text-center">
+          <img src="imgs/2.svg" alt="" />
+          <h3 class="mt-4 mb-4 fw-bold fs-5 text-black">Development</h3>
+          <div class="break mb-4"></div>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="box text-center">
+          <img src="imgs/3.svg" alt="" />
+          <h3 class="mt-4 mb-4 fw-bold fs-5 text-black">Development</h3>
+          <div class="break mb-4"></div>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="box text-center">
+          <img src="imgs/4.svg" alt="" />
+          <h3 class="mt-4 mb-4 fw-bold fs-5 text-black">Development</h3>
+          <div class="break mb-4"></div>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="box text-center">
+          <img src="imgs/5.svg" alt="" />
+          <h3 class="mt-4 mb-4 fw-bold fs-5 text-black">Development</h3>
+          <div class="break mb-4"></div>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="box text-center">
+          <img src="imgs/6.svg" alt="" />
+          <h3 class="mt-4 mb-4 fw-bold fs-5 text-black">Development</h3>
+          <div class="break mb-4"></div>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="comment position-relative" id="comment">
+      <div class="container">
+        <h2 class="text-white mb-3">Testimonials</h2>
+        <div class="boxes d-flex flex-wrap">
+          <div class="box bg-white ">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="info d-flex mt-4 align-items-center">
+              <div class="img" style="background-color: #DDD;">
+                80 x 80
+              </div>
+              <div class="flex-grow-1">
+                <h6 class="text-black fw-bold">Ahmed Mosaad</h6>
+              <h6>CEO, Company</h6>
+              </div>
+            </div>
+          </div>
+          <div class="box bg-white ">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="info d-flex mt-4 align-items-center">
+              <div class="img" style="background-color: #eee;">
+                80 x 80
+              </div>
+              <div class="flex-grow-1">
+                <h6 class="text-black fw-bold">Ahmed Mosaad</h6>
+              <h6>CEO, Company</h6>
+              </div>
+            </div>
+          </div>
+          <div class="box bg-white ">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="info d-flex mt-4 align-items-center">
+              <div class="img" style="background-color: #aaa;">
+                80 x 80
+              </div>
+              <div class="flex-grow-1">
+                <h6 class="text-black fw-bold">Ahmed Mosaad</h6>
+              <h6>CEO, Company</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact position-relative text-center" id="contact">
+      <div class="overlay"></div>
+      <h2>Contact Us</h2>
+      <div class="container">
+        <div class="con d-flex">
+          <div class="sec">
+            <input type="text" name="" id="" placeholder="Your Name">
+            <input type="tel" name="" id="" placeholder="Your Phone">
+            <input type="email" name="" id="" placeholder="Your Email">
+            <input type="text" name="" id="" placeholder="Subject">
+          </div>
+          <div class="sec">
+            <textarea name="" id="" placeholder=" Your Message"></textarea>
+            <input type="submit" value="Send">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      Created By Yousef
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
