@@ -65,7 +65,7 @@ function changePic() {
       if (index == 4) {
         index = 1;
       }
-    }, 1000);
+    }, 10000);
   }
 }
 changePic();
